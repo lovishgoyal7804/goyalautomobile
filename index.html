@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Goyal Automobile Pvt Ltd</title>
+
+<meta name="description" content="Lubricant oil dealer in Ratia. Engine oil, grease, industrial oil, tractor oil. 45+ years experience. Philco & Trysol lubricants.">
+<meta name="keywords" content="lubricant oil Ratia, grease Haryana, engine oil shop, tractor oil supplier">
+<meta name="robots" content="index, follow">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body { margin:0; font-family:'Poppins', sans-serif; background:#f5f5f5; }
+
+/* NAVBAR */
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+  background:white;
+  position:sticky;
+  top:0;
+}
+
+.logo { display:flex; align-items:center; }
+.logo img { width:40px; margin-right:10px; }
+
+.menu a {
+  margin:8px;
+  text-decoration:none;
+  color:black;
+  font-size:14px;
+}
+
+.whatsapp-btn {
+  background:#25D366;
+  color:white;
+  padding:8px 12px;
+  border-radius:5px;
+  text-decoration:none;
+}
+
+/* HERO */
+.hero {
+  height:90vh;
+  background:url('engine.jpeg') center/cover;
+  display:flex;
+  align-items:center;
+  color:white;
+  position:relative;
+}
+
+.hero::after {
+  content:'';
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.75);
+}
+
+.hero-content {
+  position:relative;
+  padding:20px;
+}
+
+.hero h1 {
+  font-size:30px;
+}
+
+.hero span { color:gold; }
+
+/* BADGE */
+.badge {
+  position:absolute;
+  right:20px;
+  bottom:20px;
+  background:gold;
+  padding:20px;
+  border-radius:50%;
+  font-weight:bold;
+}
+
+/* PRODUCTS */
+section { padding:30px; text-align:center; }
+
+.products {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  gap:15px;
+}
+
+.card {
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.card img {
+  width:100%;
+  height:120px;
+  object-fit:cover;
+}
+
+/* STATS */
+.stats {
+  background:#062a63;
+  color:white;
+  display:flex;
+  justify-content:space-around;
+  padding:20px;
+  flex-wrap:wrap;
+}
+
+/* FOOTER */
+.footer {
+  background:#0b3d91;
+  color:white;
+  padding:20px;
+}
+
+.brand-box img {
+  width:100px;
+  margin:10px;
+}
+
+/* FLOAT */
+.float {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:12px;
+  border-radius:50%;
+  text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<div class="logo">
+<img src="IMG_0811.jpeg">
+<h3>Goyal Automobile</h3>
+</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="https://wa.me/917988609313">Contact</a>
+</div>
+
+<a class="whatsapp-btn" href="https://wa.me/919729612907">WhatsApp</a>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+<div class="hero-content">
+<h1>Premium Lubricants <span>For Every Need</span></h1>
+<p>45+ Years Experience | Wholesale Supplier</p>
+</div>
+
+<div class="badge">45+ Years</div>
+</div>
+
+<!-- PRODUCTS -->
+<section>
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="engine.jpeg">
+<h3>Engine Oil</h3>
+</div>
+
+<div class="card">
+<img src="industrial.jpeg">
+<h3>Industrial Oil</h3>
+</div>
+
+<div class="card">
+<img src="grease.jpeg">
+<h3>Grease</h3>
+</div>
+
+<div class="card">
+<img src="tractor.jpeg">
+<h3>Tractor Oil</h3>
+</div>
+
+</div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+<div>45+ Years</div>
+<div>100% Quality</div>
+<div>5000+ Customers</div>
+<div>Fast Delivery</div>
+</div>
+
+<!-- CONTACT -->
+<section>
+<h2>Contact Us</h2>
+
+<p>Makhan Lal</p>
+
+<p>📞 <a href="tel:9729612907">9729612907</a></p>
+<p>📞 <a href="tel:7988609313">7988609313</a></p>
+
+<p>Plot No.12, Industrial Area,<br>
+Ratia - 125051 (Haryana)</p>
+
+<!-- GOOGLE MAP -->
+<iframe 
+src="https://maps.google.com/maps?q=Ratia%20Haryana&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%" height="250" style="border:0;border-radius:10px;">
+</iframe>
+
+</section>
+
+<!-- BRANDS -->
+<section>
+<h2>Our Brands</h2>
+
+<div class="brand-box">
+<img src="IMG_0811.jpeg">
+<img src="IMG_0812.jpeg">
+</div>
+</section>
+
+<footer style="background:#062a63;color:white;text-align:center;padding:10px;">
+© 2026 Goyal Automobile Pvt Ltd
+</footer>
+
+<!-- FLOAT WHATSAPP -->
+<a href="https://wa.me/919729612907" class="float">💬</a>
+
+</body>
+</html>
